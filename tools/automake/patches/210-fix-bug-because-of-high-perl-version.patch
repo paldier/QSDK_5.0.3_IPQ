@@ -1,0 +1,14 @@
+diff --git a/bin/automake.in b/bin/automake.in
+index 0ee37149dd..8ce621d1af 100644
+--- a/bin/automake.in
++++ b/bin/automake.in
+@@ -3880,7 +3880,8 @@ sub substitute_ac_subst_variables_worker
+ sub substitute_ac_subst_variables
+ {
+   my ($text) = @_;
+-  $text =~ s/\${([^ \t=:+{}]+)}/substitute_ac_subst_variables_worker ($1)/ge;
++#  $text =~ s/\${([^ \t=:+{}]+)}/substitute_ac_subst_variables_worker ($1)/ge;
++  $text =~ s/\$[{]([^ \t=:+{}]+)}/substitute_ac_subst_variables_worker ($1)/ge;
+   return $text;
+ }
+
