@@ -222,7 +222,7 @@ docs/clean: FORCE
 	@$(_SINGLE)$(SUBMAKE) -C docs clean
 
 distclean: clean_kernel
-	rm -rf tmp build_dir staging_dir dl .config* feeds package/feeds package/openwrt-packages bin
+	rm -rf tmp build_dir staging_dir .config* feeds package/feeds package/openwrt-packages bin
 	@$(_SINGLE)$(SUBMAKE) -C scripts/config clean
 
 ifeq ($(findstring v,$(DEBUG)),)
