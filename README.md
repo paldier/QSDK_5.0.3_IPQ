@@ -3,7 +3,8 @@
 简介
 =======================
 高通的QSDK IPQ40xx平台5.0.3版本，包含qca-wifi驱动。此代码来自PandoraBox开发团队的固件下载服务器，  
-可以公开下载的，本仓库只是整理了一下。 
+可以公开下载的，本仓库只是整理了一下。  
+
 [dl目录下载地址](https://downloads.pangubox.com/sources/)  
 [源码下载地址](https://downloads.pangubox.com/lintel/qsdk-5.0.3.zip)  
 [恩山大佬lintel](https://www.right.com.cn/forum/space-uid-37585.html)  
