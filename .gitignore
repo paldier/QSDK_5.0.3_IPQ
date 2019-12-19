@@ -1,3 +1,4 @@
+!.gitignore
 *.o
 .DS_Store
 .*.swp
@@ -11,7 +12,6 @@
 /tmp
 /logs
 /feeds
-/feeds.conf
 /files
 /package/feeds
 /package/openwrt-packages
@@ -25,16 +25,16 @@ key-build*
 TAGS*~
 git-src
 
-!dl/BIN-NSS.AK.E.CS-5-E.tar.bz2*
-!dl/BIN-NSS.AK.E.CS-5-R.tar.bz2*
-!dl/include/
-!dl/Notice.txt*
-!dl/qca-wifi-fw-AR900B_hw_2-WLAN.BL.3.5-00010-S-1.tar.bz2*
-!dl/qca-wifi-fw-AR9887_hw_1-CNSS.PS.2.5-00006-S-1.tar.bz2*
-!dl/qca-wifi-fw-AR9888_hw_2-CNSS.PS.2.5-00006-S-1.tar.bz2*
-!dl/qca-wifi-fw-IPQ4019_hw_1-WLAN.BL.3.5-00010-S-1.tar.bz2*
-!dl/qca-wifi-fw-QCA9888_hw_2-WLAN.BL.3.5-00010-S-1.tar.bz2*
-!dl/qca-wifi-fw-QCA9984_hw_1-WLAN.BL.3.5-00010-S-1.tar.bz2*
-!dl/qca-wifi-fw-src-component-cmn-WLAN.BL.3.5-00010-S-1.tgz*
-!dl/qca-wifi-fw-src-component-halphy_tools-WLAN.BL.3.5-00010-S-1.tgz*
-!dl/wlan
+!/dl/BIN-NSS.AK.E.CS-5-E.tar.bz2*
+!/dl/BIN-NSS.AK.E.CS-5-R.tar.bz2*
+!/dl/include/
+!/dl/Notice.txt*
+!/dl/qca-wifi-fw-AR900B_hw_2-WLAN.BL.3.5-00010-S-1.tar.bz2*
+!/dl/qca-wifi-fw-AR9887_hw_1-CNSS.PS.2.5-00006-S-1.tar.bz2*
+!/dl/qca-wifi-fw-AR9888_hw_2-CNSS.PS.2.5-00006-S-1.tar.bz2*
+!/dl/qca-wifi-fw-IPQ4019_hw_1-WLAN.BL.3.5-00010-S-1.tar.bz2*
+!/dl/qca-wifi-fw-QCA9888_hw_2-WLAN.BL.3.5-00010-S-1.tar.bz2*
+!/dl/qca-wifi-fw-QCA9984_hw_1-WLAN.BL.3.5-00010-S-1.tar.bz2*
+!/dl/qca-wifi-fw-src-component-cmn-WLAN.BL.3.5-00010-S-1.tgz*
+!/dl/qca-wifi-fw-src-component-halphy_tools-WLAN.BL.3.5-00010-S-1.tgz*
+!/dl/wlan
